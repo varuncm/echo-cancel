@@ -1,6 +1,6 @@
 # This is a practical demo of Echo Cancellation in audio samples using adaptive filter.  The filter used is adaptfilt from the Python library.
 # For more information on adaptfilt, please refer to the source, https://pypi.python.org/pypi/adaptfilt/0.2
-# An explain on the terminologies used in the program: 
+# An explainer on the terminologies used in the program: 
 # The person in the far-end is "the sender".  The "listener" on the near-end hears the sender and replies to him.  
 # However, the sender may get distracted hearing his own voice reflected from the listener's room along with the listener's voice.  
 # The coefficients used to simulate the sender's voice getting reflected in the listener's room is the same as those used in the adaptfilt example
